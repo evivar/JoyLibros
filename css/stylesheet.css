@@ -1,0 +1,212 @@
+/*
+    * Colores
+    * Amarillo: #F9BE2E
+    * Azul: #0BB0A5
+*/
+
+body {
+    background-color: #f8f9fa!important;
+    margin: 0!important;
+}
+
+.bg-light {
+    background-color: white;
+}
+
+.visit {
+    background-color: #0BB0A5;
+    outline-color: #0BB0A5;
+    color: white;
+    border: 1px solid #0BB0A5;
+    transition: 0.5s;
+    margin-top: 1em;
+}
+
+.visit:hover {
+    background-color: white;
+    border: 1px solid #0BB0A5;
+    color: #0BB0A5;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.footer {
+    background-color: #0BB0A5;
+    color: white;
+}
+
+.rotulo {
+    background-color: #0BB0A5;
+    margin: 0!important;
+    /*border: 1px solid red;
+    border-radius: 50%;*/
+}
+
+
+/*
+   * Custom translucent site header
+   */
+
+.site-header {
+    padding: 0!important;
+    background-color: #0BB0A5;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.site-header a {
+    color: white;
+    transition: ease-in-out color .15s;
+}
+
+.site-header a:hover {
+    color: #F9BE2E;
+    text-decoration: none;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+
+/*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+.especial {
+    background-color: #0BB0A5;
+    margin: 0!important;
+    padding-left: 0!important;
+}
+
+.ho {
+    background-color: white;
+    width: 100%;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+
+/*
+   * Extra utilities
+   */
+
+.flex-equal>* {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        -ms-flex: 1;
+        flex: 1;
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Pacifico', cursive;
+}
+
+.rotulosI {
+    font-size: 73px;
+    font-family: 'Pacifico';
+    color: #F9BE2E;
+    font-size: 8em;
+}
+
+.rotuloF {
+    padding: 7em!important;
+}
+
+.rotulosD {
+    font-size: 73px;
+    font-family: 'Pacifico';
+    color: #F9BE2E;
+    font-size: 8em;
+}
+
+.rotulosM {
+    font-size: 73px;
+    font-family: 'Pacifico';
+    color: #F9BE2E;
+    margin-bottom: 1em;
+}
+
+.card {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.cardY {
+    border: 1px solid #F9BE2E;
+}
+
+.cardB {
+    border: 1px solid #0BB0A5;
+}
+
+.resenas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu>a {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    font-weight: 700;
+}
+
+.menu>a:hover {
+    color: grey;
+}
+
+.form>.btn {
+    padding: 5em;
+}
