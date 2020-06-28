@@ -4,14 +4,10 @@
     * Azul: #0BB0A5
 */
 
-body {
-    background-color: #f8f9fa!important;
-    margin: 0!important;
-}
 
-.bg-light {
+/*.bg-light {
     background-color: white;
-}
+}*/
 
 .visit {
     background-color: #0BB0A5;
@@ -39,7 +35,7 @@ body {
 
 .rotulo {
     background-color: #0BB0A5;
-    margin: 0!important;
+    /*margin: 0!important;*/
     /*border: 1px solid red;
     border-radius: 50%;*/
 }
@@ -65,7 +61,7 @@ body {
 
 .site-header a:hover {
     color: #F9BE2E;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 * {
@@ -108,7 +104,8 @@ body {
     background-color: #e5e5e5;
 }
 
-.especial {
+
+/*.especial {
     background-color: #0BB0A5;
     margin: 0!important;
     padding-left: 0!important;
@@ -117,9 +114,12 @@ body {
 .ho {
     background-color: white;
     width: 100%;
-    margin-left: 0!important;
+    /*margin-left: 0!important;
     margin-right: 0!important;
+
+
 }
+*/
 
 
 /*
@@ -142,26 +142,28 @@ body {
     overflow: hidden;
 }
 
+.opc {
+    font-size: 1.1em;
+    padding: 8px;
+    margin: 6px;
+}
+
 @font-face {
     font-family: 'Pacifico', cursive;
 }
 
 .rotulosI {
-    font-size: 73px;
+    font-size: 63px;
     font-family: 'Pacifico';
     color: #F9BE2E;
-    font-size: 8em;
-}
-
-.rotuloF {
-    padding: 7em!important;
+    font-size: 5em;
 }
 
 .rotulosD {
     font-size: 73px;
     font-family: 'Pacifico';
     color: #F9BE2E;
-    font-size: 8em;
+    font-size: 5em;
 }
 
 .rotulosM {
