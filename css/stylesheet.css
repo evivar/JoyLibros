@@ -9,6 +9,45 @@
     background-color: white;
 }*/
 
+body {
+    background-color: #F8F9FA;
+}
+
+.fa-star {
+    color: #F9BE2E;
+}
+
+hr {
+    width: 50%;
+    color: #F9BE2E;
+    background-color: #F9BE2E;
+}
+
+.donde {
+    display: flex;
+    flex-direction: column;
+}
+
+.donde>button {
+    margin-bottom: 2.5em;
+}
+
+.mapaYResenyas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+
+.mapaYResenyas>iframe {
+    margin-right: 2.5em;
+}
+
+
+/* .vendeBtn {
+    margin-top: 12em!important;
+} */
+
 .visit {
     background-color: #0BB0A5;
     outline-color: #0BB0A5;
@@ -16,6 +55,60 @@
     border: 1px solid #0BB0A5;
     transition: 0.5s;
     margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+    margin-right: 2em;
+}
+
+.fa-bars {
+    color: #F9BE2E;
+}
+
+.navbar-nav {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+nav>.nav-link {
+    margin-left: 2em;
+}
+
+.dark-blue-text {
+    color: #0A38F5;
+}
+
+.dark-pink-text {
+    color: #AC003A;
+}
+
+.dark-amber-text {
+    color: #ff6f00;
+}
+
+.dark-teal-text {
+    color: #004d40;
+}
+
+.visitInv {
+    background-color: #F9BE2E;
+    outline-color: #F9BE2E;
+    color: white;
+    border: 1px solid #F9BE2E;
+    transition: 0.5s;
+    margin-top: 1.5em;
+}
+
+.visitInv:hover {
+    background-color: #0BB0A5;
+    border: 1px solid #F9BE2E;
+    color: #F9BE2E;
 }
 
 .visit:hover {
@@ -47,7 +140,7 @@
 
 .site-header {
     padding: 0!important;
-    background-color: #0BB0A5;
+    background-color: #F8F9FA;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     font-weight: 700;
@@ -66,6 +159,27 @@
 
 * {
     scroll-behavior: smooth;
+}
+
+.d-md-flex {
+    align-items: center;
+    justify-content: center;
+}
+
+.librosF {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.libro {
+    margin-left: -2.5em;
+    margin-right: -2.5em;
+}
+
+.buscar>span>i {
+    margin-right: 1em;
 }
 
 
@@ -148,10 +262,6 @@
     margin: 6px;
 }
 
-@font-face {
-    font-family: 'Pacifico', cursive;
-}
-
 .rotulosI {
     font-size: 63px;
     font-family: 'Pacifico';
@@ -211,4 +321,16 @@
 
 .form>.btn {
     padding: 5em;
+}
+
+.designed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail,
+.mail:hover {
+    text-decoration: none;
+    color: white;
 }
