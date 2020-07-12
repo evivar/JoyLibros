@@ -35,12 +35,8 @@ hr {
 .mapaYResenyas {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 2em;
-}
-
-.mapaYResenyas>iframe {
-    margin-right: 2.5em;
 }
 
 
@@ -74,10 +70,6 @@ hr {
 .navbar-nav {
     margin-left: 1em;
     margin-bottom: 0.5em;
-}
-
-nav>.nav-link {
-    margin-left: 2em;
 }
 
 .dark-blue-text {
@@ -333,4 +325,30 @@ nav>.nav-link {
 .mail:hover {
     text-decoration: none;
     color: white;
+}
+
+.fondoLocal {
+    /* background-image: url("/images/local.jpg");
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fondoLocal::before {
+    content: "";
+    background-image: url("/images/local1.jpg");
+    background-size: cover;
+    border: 2px solid #F8F9FA;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.restoFondo {
+    position: relative;
 }
